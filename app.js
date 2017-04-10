@@ -5,7 +5,10 @@ var chalk       = require('chalk');
 var clear       = require('clear');
 var figlet      = require('figlet');
 var readline    = require('readline');
-var googl 		= require('goo.gl');
+var googl 	= require('goo.gl');
+var request = require('request');
+var google = require('googleapis');
+var urlshortener = google.urlshortener('v1');
 
 // Api Key
 googl.setKey("AIzaSyBYklvoU4MIer1gw2IwUZ5Nu1sZ-X9tCKE");
